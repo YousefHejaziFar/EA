@@ -25,19 +25,23 @@ nav div {
 }
 nav .nav-item-1 {
   text-align: center;
-  font-size: 30px;
+  width: 50px;
+  height: 100%;
   margin: 0px 20px;
   position: relative;
   transition: 0.3s;
   display: flex;
+  align-items: center;
 }
 .nav-item-1 i {
   transition: 0.2s;
   cursor: pointer;
+  font-size: 30px;
+  display: flex;
 }
-.nav-item-1 .three-points:hover {
+.nav-item-1 i:hover {
   color: rgb(255, 68, 0);
-  font-size: 32px;
+  font-size: 35px;
 }
 .nav-item-1 .three-lines {
   display: none;
@@ -59,7 +63,7 @@ nav .nav-item-1 {
   height: 100vh;
   width: 25vw;
   background-color: rgb(255, 255, 255);
-  left: -300%;
+  left: -50%;
   top: 0;
   display: none;
   position: absolute;
@@ -224,7 +228,7 @@ nav .nav-item-1 {
   display: block;
 }
 nav .nav-item-2 {
-  width: 20%;
+  width: 15%;
 }
 .nav-item-3 ul li {
   display: inline-block;
@@ -576,17 +580,13 @@ nav .nav-item-2 {
   border-radius: 3px;
   cursor: pointer;
   display: flex;
-  padding: 18px 50px;
+  padding: 20px 40px;
 }
 .bar-between-the-two-sections button a {
   color: white;
   margin: auto;
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.button-bar-between-the-two-sections button:hover {
-  padding: 20px 52px;
-  border-radius: 2px;
 }
 /*
                            ### mobile-sports-games ###
@@ -729,9 +729,9 @@ nav .nav-item-2 {
   cursor: pointer;
 }
 .news .nav .container div > p {
-  border-left: 2px solid rgba(98, 98, 98, 0.248);
-  border-right: 2px solid rgba(122, 122, 122, 0.268);
-  color: rgba(0, 0, 0, 0.605);
+  border-left: 1px solid rgba(98, 98, 98, 0.248);
+  border-right: 1px solid rgba(122, 122, 122, 0.268);
+  color: rgba(0, 0, 0, 0.707);
 }
 .news .nav .container .item-13 {
   position: absolute;
@@ -781,7 +781,7 @@ nav .nav-item-2 {
 }
 .report > div:hover {
   transform: translatey(-15px);
-  box-shadow: 5px 10px 20px 8px rgba(0, 0, 0, 0.63);
+  box-shadow: 2px 10px 10px 5px rgba(0, 0, 0, 0.63);
 }
 .report div > img {
   width: 100%;
@@ -976,6 +976,7 @@ nav .nav-item-2 {
   transition: 0.2s;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   border-color: rgba(0, 0, 0, 0.23);
 }
 .network-footer .container .content .network-link .language button > div {
@@ -1333,7 +1334,7 @@ nav .nav-item-2 {
   }
   .flex-sport-game .sport-game-image > div {
     width: 100%;
-    height: 10.7%;
+    height: 10.6%;
   }
   .sport-game-text .item-2 h1 {
     font-size: 40px;
